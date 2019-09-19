@@ -1,11 +1,11 @@
 <h1 align="center">Charts</h1>
 
 <p align="center">
-    <a href="https://github.com/jiaming743/charts/blob/master/LICENSE">
+    <a href="https://github.com/east-century-fex/charts/blob/master/LICENSE">
         <img src="https://img.shields.io/github/license/jiaming743/charts.svg" alt="LICENSE" />
     </a>
     <a href="https://www.npmjs.com/package/@jiaminghi/charts">
-        <img src="https://img.shields.io/npm/v/@jiaminghi/charts.svg" alt="LICENSE" />
+        <img src="https://img.shields.io/npm/v/@east-century/charts.svg" alt="npm" />
     </a>
 </p>
 
@@ -24,13 +24,13 @@
 ### npm安装
 
 ```shell
-$ npm install @jiaminghi/charts
+$ npm install @east-century/charts
 ```
 
 ### 使用
 
 ```javascript
-import Charts from '@jiaminghi/charts'
+import Charts from '@east-century/charts'
 
 const container = document.getElementById('container')
 
@@ -42,16 +42,16 @@ myChart.setOption({
 })
 ```
 
-详细文档及示例请移步[HomePage](http://charts.jiaminghi.com).
+详细文档及示例请移步[HomePage](https://eastcenturyfe.github.io/charts-document-code).
 
 ### 快速体验
 
 ```html
-<!--资源位于个人服务器仅供体验和测试，请勿在生产环境使用-->
+<!--资源位于github服务器仅供体验和测试，请勿在生产环境使用-->
 <!--调试版-->
-<script src="http://lib.jiaminghi.com/charts/charts.map.js"></script>
+<script src="https://github.com/east-century-fex/charts/blob/master/dist/charts.map.js"></script>
 <!--压缩版-->
-<script src="http://lib.jiaminghi.com/charts/charts.min.js"></script>
+<script src="https://github.com/east-century-fex/charts/blob/master/dist/charts.min.js"></script>
 <script>
   const Charts = window.Charts.default
   // do something
